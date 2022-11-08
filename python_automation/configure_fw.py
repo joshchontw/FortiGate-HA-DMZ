@@ -14,9 +14,9 @@ secondaryFW = {
     'device_type': 'fortinet'
 }
 
-
-config_files = ["interface_config-primary.txt", "virtualIP_config.txt", "policy_config.txt", 
-                "HA_config-primary.txt", "HA_config-secondary.txt", "interface_config-secondary.txt"]
+config_files = ["interface_template/interface_config-primary.txt", "vip_policy_template/virtualIP_config.txt", 
+                "vip_policy_template/policy_config.txt", "ha_template/HA_config-primary.txt", 
+                "ha_template/HA_config-secondary.txt", "interface_template/interface_config-secondary.txt"]
 
 print('Connecting')
 
