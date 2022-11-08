@@ -1,0 +1,25 @@
+config firewall policy
+    edit 1
+    set name "Internet to DMZ"
+    set srcintf "port1"
+    set dstintf "port3"
+    set srcaddr "all"
+    set dstaddr "WebserverHTTPS"
+    set service "HTTPS"
+    set action accept
+    set nat enable
+    set schedule "always"
+    end
+
+config firewall policy
+    edit 2
+    set name "Internal to DMZ"
+    set srcintf "port2"
+    set dstintf "port3"
+    set srcaddr "all"
+    set dstaddr "WebserverSSH"
+    set service "SSH"
+    set action accept
+    set nat enable
+    set schedule "always"
+    end

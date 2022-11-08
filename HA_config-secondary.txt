@@ -1,0 +1,7 @@
+config system ha
+    set group-name "HA-group"
+    set mode a-p
+    set password HA-password
+    set hbdev "port4" 0
+    set priority 128
+    end 
