@@ -2,6 +2,8 @@
 
 In this lab, two FortiGate firewalls will be operating in active-passive (high-availability) mode. They will be in front of a DMZ and internal network. An outside user will be able to access the webserver, but not the internal router. Python is used to automate the provisioning of the firewalls.
 
+*[Details of the Python automation](https://github.com/joshchontw/FortiGate-HA-DMZ/blob/main/python_automation/README.md)*
+
 ![image](https://user-images.githubusercontent.com/81763406/199127293-3d343ce7-f577-4bc0-b24f-686d591ceba6.png)
 ---
 ### High availability configuration
